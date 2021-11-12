@@ -1,0 +1,124 @@
+// Place all the styles related to the lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// .container-moviecards {
+//   display: grid;
+// }
+
+
+
+.text-container {
+  border: 2px solid black;
+  height: 200px;
+  padding: 10px;
+
+}
+
+.rating-container {
+  margin-left: 210px;
+
+}
+
+.card-movie {
+  display: inline-grid;
+  margin: 40px;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 10px;
+  padding-top: 30px;
+
+}
+
+.card-list {
+  display: inline-grid;
+  margin: 40px;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 10px;
+  padding-top: 30px;
+  transition: border 0.2s ease-in-out;
+  &:hover {
+    width: 305px;
+    height: 500px;
+    border: 2px solid white;
+  }
+
+}
+
+
+.url-poster {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 10px;
+  height: 200px;
+  width: 300px;
+  box-shadow: 5px 5px 5px black;
+  filter: saturate(100%);
+  &:hover {
+    filter: saturate(100%);
+  }
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-weight:300;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
+p #rating {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
+  margin-top: 77px;
+
+}
+
+.list-name {
+  margin-left: 30px;
+}
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgb(75, 75, 75) 0%, rgb(0, 0, 0) 75%, rgb(61, 61, 61) 100%);
+  transition: background 0.3s ease;
+}
+
+.btn-cancel {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #6a757e;
+  transition: background 0.3s ease;
+}
+
+.btn-back {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgb(75, 75, 75) 0%, rgb(0, 0, 0) 75%, rgb(61, 61, 61) 100%);
+  transition: background 0.3s ease;
+}
